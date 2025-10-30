@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amaechi Godwin Uchechukwu | Front-End Developer</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <!--=====HEADER=====-->
+    <header>
+        <div class="container">
+            <h1 class="logo">GODWIN<span>.</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            </nav>
+        </div>
+        <div class="theme-toggle"><i class="fas fa-moon"></i></div>
+    </header>
+    <!--=====HERO SECTION=====-->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Hello, I'm <span>Amaechi Godwin</span></h2>
+            <p>A passionate Front-End Developer who loves creating modern and responsive web designs.</p><a href="#projects" class="btn">View My Work</a></div>
+    </section>
+    <!--=====ABOUT SECTION=====-->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-image"><img src="images/mypicture.jpg" alt="Amaechi Godwin"></div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I'm <strong>Amaechi Godwin Uchechukwu</strong>, a passionate Front-End Developer from Nigeria. I love designing and building modern, user-friendly, and responsive web interfaces using
+                    <b>HTML,
+CSS,
+and JavaScript</b>. My goal is to turn creative ideas into functional and beautiful websites. </p><a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!--=====SKILLS SECTION=====-->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <p class="section-subtitle">Here are the technologies I work with:</p>
+            <div class="skills-container">
+                <div class="skill"><i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill"><i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill"><i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill"><i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill"><i class="fab fa-github"></i>
+                    <h3>Git & GitHub</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====PROJECTS SECTION=====-->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Some of the projects I've worked on recently:</p>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card"><img src="images/wizzy.jpg" alt="Wizzy Gadgets">
+                    <div class="project-info">
+                        <h3>Wizzy Gadgets</h3>
+                        <p>A modern gadget e-commerce front-end built with HTML, CSS, and JavaScript.</p>
+                        <div class="project-links"><a href="#" class="btn">Learn More</a><a href="#" class="btn-outline"><i class="fab fa-platform"></i>Access platform</a></div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card"><img src="images/hope.jpg" alt="HopeReach Foundation">
+                    <div class="project-info">
+                        <h3>HopeReach Foundation</h3>
+                        <p>A charity website for donations to help the poor and less privileged.</p>
+                        <div class="project-links"><a href="#" class="btn">Learn More</code></a><a href="#" class="btn-outline"><i class="fab fa-platform"></i>Access platform</a></div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card"><img src="images/uchublogs.jpg" alt="UC HubLogs">
+                    <div class="project-info">
+                        <h3>UC HubLogs</h3>
+                        <p>A clean login and dashboard interface built with HTML, CSS, and JS animations.</p>
+                        <div class="project-links"><a href="#" class="btn">Learn more</a><a href="#" class="btn-outline"><i class="fab fa-platform"></i>Access platform</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====CONTACT SECTION=====-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Let’s connect! You can message me anytime.</p>
+            <div class="contact-container">
+                <!-- Contact Form -->
+                <form class="contact-form" action="#" method="POST"><input type="text" placeholder="Your Name" required><input type="email" placeholder="Your Email" required><textarea rows="5" placeholder="Your Message" required></textarea><button type="submit" class="btn">Send Message</button></form>
+                <!-- Social Media Links -->
+                <div class="contact-info">
+                    <h3>Connect with me</h3>
+                    <p>Follow me or reach out through these platforms:</p>
+                    <div class="social-icons"><a href="#"><i class="fab fa-github"></i></a><a href="#"><i class="fab fa-linkedin"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="#"><i class="fab fa-twitter"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====FOOTER=====-->
+    <footer>
+        <p>© 2025 Amaechi Godwin Uchechukwu. All rights reserved.</p>
+    </footer>
+    <!--=====JAVASCRIPT FILE=====-->
+    <script src="script.js"></script>
+    <!-- Buy Me a Coffee Button -->
+    <a href="https://paystack.shop/pay/com122" target="_blank" class="coffee-button">
+  ☕ Buy Me a Coffee
+</a>
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/2349156210729?text=Hello%20UC%20hublogs!%20I%27m%20interested%20in%20your%20projects%20and%20would%20love%20to%20connect." class="whatsapp-button" target="_blank">
+   💬 Chat on WhatsApp
+</a>
+    </a>
+
+    </div>
+</body>
+
+</html
