@@ -28,7 +28,7 @@ header {
 .container {
     width: 90%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,8 +125,8 @@ header {
 }
 
 .about-image img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -152,7 +152,7 @@ header {
 
 /* Make About section responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .about-container {
         flex-direction: column;
         text-align: center;
@@ -631,5 +631,32 @@ body.dark-mode footer {
     to {
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+
+/* Smartphones */
+
+@media (max-width: 600px) {
+    .header,
+    .nav-menu {
+        flex-direction: column;
+        /* stack items vertically */
+        text-align: center;
+    }
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+    h1,
+    h2,
+    h3 {
+        font-size: 5vw;
+        /* font scales with screen */
+    }
+    .button,
+    a {
+        width: 100%;
+        margin: 5px 0;
     }
 }
