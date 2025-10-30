@@ -641,7 +641,6 @@ body.dark-mode footer {
     .header,
     .nav-menu {
         flex-direction: column;
-        /* stack items vertically */
         text-align: center;
     }
     .container {
@@ -652,7 +651,6 @@ body.dark-mode footer {
     h2,
     h3 {
         font-size: 5vw;
-        /* font scales with screen */
     }
     .button,
     a {
